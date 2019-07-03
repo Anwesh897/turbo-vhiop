@@ -19,13 +19,14 @@ body{
     position: relative;
 }
 .image{
-    width:33.33%;/*32.1%*/
-    height: 150px;
+    width:50%;/*32.1%*/
+    height: 50px;
     float: left;
-    padding:5px;
+    padding:1px;
     cursor: pointer;
     overflow: hidden;
-    border: 1px solid black;
+    border: 5px solid white;
+    background: grey;
 }
 #leftbar{
     height: 100%;
@@ -44,6 +45,7 @@ body{
 }
 .col-2{
     width:75%;
+    border:20px solid white;
 }
 .col-3{
     width:15%;
