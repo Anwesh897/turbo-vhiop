@@ -1,0 +1,50 @@
+/*#leftbar{
+    width:25%;
+    height:100%;
+    top:0;
+    position: fixed;
+    float: left;
+    background:linear-gradient(to top,white,indigo,white);
+}*/
+body{
+    margin:0;
+}
+.column{
+    float: left;
+    height:100%;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+    overflow: auto;
+    /*border: 1px solid black;*/
+    position: relative;
+}
+.image{
+    width:33.33%;/*32.1%*/
+    height: 150px;
+    float: left;
+    padding:5px;
+    cursor: pointer;
+    overflow: hidden;
+    border: 1px solid black;
+}
+#leftbar{
+    height: 100%;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+    overflow: auto;
+}
+#rightbar{
+    height: 100%;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+    overflow: auto;
+}
+.col-1{
+    width:10%;
+}
+.col-2{
+    width:75%;
+}
+.col-3{
+    width:15%;
+}

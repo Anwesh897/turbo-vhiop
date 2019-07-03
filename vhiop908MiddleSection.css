@@ -1,0 +1,48 @@
+body{
+    margin:0;
+}
+
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: absolute;
+    /*z-index: 1;
+    top:0;
+    left: 0;
+    padding-top: 60px;*/
+    background:white;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.sidenav p{
+    padding:8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    top:5px;
+}/*
+.sidenav .closebtn{
+    position: absolute;
+    top:0;
+    right:25px;
+    font-size: 36px;
+    margin-left: 50px;
+}*/
+.closebtnSection{
+    background-color: white;
+    box-shadow: 1px 2px 2px 1px;
+    color: black;
+    width: 100%;
+    height: 40px;
+    font-size: 36px;
+    cursor: pointer;
+    position: relative;
+    text-align:right;
+}
+/*#middleSection{
+    height:100%;
+    padding-bottom: 100%;
+    margin-bottom: -100%;
+}*/
