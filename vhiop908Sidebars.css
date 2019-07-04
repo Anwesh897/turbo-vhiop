@@ -20,13 +20,45 @@ body{
 }
 .image{
     width:50%;/*32.1%*/
-    height: 50px;
+    height: 80px;
     float: left;
     padding:1px;
     cursor: pointer;
     overflow: hidden;
     border: 5px solid white;
-    background: grey;
+    background: #eaeaea;
+    border-radius: 15px;
+}
+.image-1{
+    float: left;
+    width:15%;
+    border:3px solid #eaeaea;
+    height:100%;
+    border-radius: 15px;
+}
+.image-2{
+    float: left;
+    width:85%;
+    border:3px solid #eaeaea;
+    height:100%;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.para{
+    font-size: 18px;
+    text-align: right;
+    margin: auto;
+    cursor: pointer;
+    color: rgb(16, 147, 228);
+}
+.para:hover{
+    text-decoration: underline;
+}
+.pSection{
+    border: 2px solid white;
+    margin: auto;
+    top:20px;
+    height: 60px;
 }
 #leftbar{
     height: 100%;
@@ -44,9 +76,9 @@ body{
     width:10%;
 }
 .col-2{
-    width:75%;
+    width:80%;
     border:20px solid white;
 }
 .col-3{
-    width:15%;
+    width:10%;
 }

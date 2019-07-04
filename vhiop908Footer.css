@@ -1,0 +1,21 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#eee;/* rgb(18, 163, 189);*/
+    color: black;
+    text-align: center;
+ }
+ .footerColumn{
+    float: left;
+    height:70px;
+    width:33.33%;
+    border:3px solid #eee;
+    padding:2px;
+    /*height: 60px;*/
+ }
+
+audio{
+    width:100%;
+}
