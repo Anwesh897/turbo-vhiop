@@ -81,7 +81,7 @@ body {
 }*/
 
 .carouselBackground{
-    background: linear-gradient(to left,black,indigo,indigo,black);
+    background: black;
     width:100%;
     height: 300px;
     margin-top:0;
