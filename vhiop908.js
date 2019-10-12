@@ -4,7 +4,7 @@ var selectedIndex = 0;
 rotateCarousel();
 
 function rotateCarousel() {
-  var angle = selectedIndex / cellCount * -360;
+var angle = theta * selectedIndex * -1;
   carousel.style.transform = 'translateZ(-350px) rotateY(' + angle + 'deg)';
 //   var slides = document.getElementsByClassName('carousel__cell');  ////  ////  ////image slider from w3school
 //   for(i=0;i<slides.length;i++){
